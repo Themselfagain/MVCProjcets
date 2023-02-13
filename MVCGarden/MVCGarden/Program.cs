@@ -1,12 +1,21 @@
 ﻿using System;
-
+using MVCGarden.Controller;
 namespace MVCGarden
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GardenController controller = new GardenController();
+
+
+
+
+
+
+
+
+
         }
     }
 }
