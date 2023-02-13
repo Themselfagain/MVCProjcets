@@ -8,10 +8,10 @@ namespace MVCGarden.Model
     {
         public Garden(decimal vegiPrice, decimal fruitPrice, int vegiKg, int fruitKg)
         {
-            VegiPrice = vegiPrice;
-            FruitPrice = fruitPrice;
-            VegiKg = vegiKg;
-            FruitKg = fruitKg;
+            this.VegiPrice = vegiPrice;
+            this.FruitPrice = fruitPrice;
+            this.VegiKg = vegiKg;
+            this.FruitKg = fruitKg;
         }
 
         public decimal VegiPrice { get; set; }
